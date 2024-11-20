@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+       <h2> GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    <form action="./bud.webp">
+       <fieldset>
+        <legend>Applicant Details</legend>
+        <form action="">
+        Name: <input type="text" >  
+        Father's/Guardian Name: <input type="text"><br>
+        Date Of Birth: <input type="date" placeholder="dd/mm/yyy"> 
+        Gender: <input type="radio" id="male" name="Gender"> 
+        <label for="male">male</label>
+        <input type="radio" id="female" name="Gender">
+        <label for="female">female</label> <br>
+        Age as on: <input type="text" >
+        Aadhaar no: <input type="text"> <br>
+        Whatsapp no: <input type="text">
+        Email id: <input type="text"><br>
+        photo: <input type="file" name="file name" id="">
+      </fieldset>
+     <fieldset>
+        <legend>Residential Address Details</legend>
+        Applicant address : <textarea name="address" id="address" maxlenght="20" required></textarea>
+        District : <select name="District" id="District">
+            <option value="hyderabad">hyderabad</option>
+            <option value="medak">medak</option>
+            <option value="ranga reddy">rangareddy</option>
+        </select><br>
+        Mandal: <select name="Mandal" id="Mandal">
+            <option value="patancheru">patancheru</option>
+            <option value="medak">medak</option>
+            <option value="lingampally">lingampally</option>
+        </select>
+        village: <select name="village" id="village">
+            <option value="patancheru">patancheru</option>
+            <option value="beeramguda">beeramguda</option>
+            <option value="chandanagar">chandanagar</option>
+        </select><br>
+        pincode: <input type="text"></fieldset>
+        <fieldset>
+            <legend>Paas Type Details</legend>
+            city: <select name="city" id="city">
+                <option value="lingam">lingam</option>
+                <option value="madinaguda">madinaguda</option>
+                <option value="patancheru">patancheru</option>
+                <option value="kukatpally">kukatpally</option>
+            </select><br>
+            pass type: <select name="type" id="type">
+                <option value="------select-----">----select----</option>
+                <option value="general">general</option>
+                <option value="ordinary">ordinary</option>
+            </select> </fieldset>
+            <fieldset>
+                <legend>Mode of Payment & Pass collection</legend>
+                Payment method: <select name="payment" id="payment">
+                    <option value="----select payment mode-----">----select payment mode-----</option>
+                    <option value="debit card">debit card </option>
+                    <option value="UPI">UPI</option>
+                        <option value="cash">cash
+                    </option>
+                </select><br>
+                Pass delivery mode: <select name="delivery" id="delivery">
+                    <option value="----select pass delivery mode----">----select pass delivery mode-----</option>
+                    <option value="courier">courier</option>
+                    <option value="self">self</option>
+                </select>
+
+            </fieldset>
+             <center> <input type="text"><br>
+                <input type="submit"></center>
+
+
+        
+
+        </form>
+     
+    
+</body>
+</html>
